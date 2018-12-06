@@ -1,0 +1,4 @@
+#Wed Dec 05 23:35:17 CET 2018
+base.0=/Users/rosanaalcheva/Desktop/MyCompoundView/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

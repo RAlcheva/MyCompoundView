@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Please select your desired quantity:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.ralcheva.mycompoundview.view.QuantityView
+            android:id="@+id/valueSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            app:colorOfQuantity="@color/colorPrimaryDark"
+            app:colorOfText="@color/colorBlack"
+            app:deltaQuantity="15"
+            app:isOutlined="false"
+            app:maxQuantity="100"
+            app:minQuantity="0"
+            app:startQuantity="10" />
+    </LinearLayout>
+</LinearLayout>
